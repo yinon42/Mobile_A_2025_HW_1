@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/home_screen"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- נקודה 1 -->
+    <View
+        android:id="@+id/dot1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <!-- נקודה 2 -->
+    <View
+        android:id="@+id/dot2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- נקודה 3 -->
+    <View
+        android:id="@+id/dot3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- נקודה 4 -->
+    <View
+        android:id="@+id/dot4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- נקודה 5 -->
+    <View
+        android:id="@+id/dot5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- נקודה 5 -->
+    <View
+        android:id="@+id/dot6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/dot7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/dot8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dot_inactive"
+        app:layout_constraintTop_toBottomOf="@id/dot7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <!-- כפתור התחברות -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        app:layout_constraintTop_toBottomOf="@id/dot8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
