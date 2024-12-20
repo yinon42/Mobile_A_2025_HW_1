@@ -4,6 +4,8 @@ This document explains the conditions for each **dot** (indicator) in the applic
 
 The **Login Button** will only become enabled when all the dots turn **green** (active).
 
+Here is a link for a demonstration video: https://drive.google.com/drive/folders/1ghK0RXaczuixQFK5HeAqdrRsDu808U5H?usp=drive_link
+
 ---
 
 ## **Dots and Their Conditions**
