@@ -63,7 +63,7 @@ The **Login Button** will only become enabled when all the dots turn **green** (
 - **Condition:** The device must face side up and tilted to the right.
 - **How to activate:**
   1. Hold your device with the face-up.
-  2. Tilt the device to the **right** until the light turns green.
+  2. Tilt the device towards you and slightly to the **right** until the light turns green.
 
 ---
 
