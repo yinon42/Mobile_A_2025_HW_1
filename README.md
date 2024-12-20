@@ -55,15 +55,15 @@ The **Login Button** will only become enabled when all the dots turn **green** (
 - **Condition:** Tap the **bottom-right corner** of the screen.
 - **How to activate:**
   1. Touch the bottom-right area of the screen.
-  2. The condition won't be met if you touch other part of the screen after touching the bottom right      part.
+  2. The condition won't be met if you touch any other part of the screen after touching the bottom right      part.
 
 ---
 
-### 7. **Dot 7: Compass (North Direction)**
-- **Condition:** The device must be pointing **North**.
+### 7. **Dot 7: Phone tilt (Right Direction)**
+- **Condition:** The device must face side up and tilted to the right.
 - **How to activate:**
-  1. Use a compass app or observe your phone's position.
-  2. Rotate the device until it points toward **North**.
+  1. Hold your device with the face-up.
+  2. Tilt the device to the **right** until the light turns green.
 
 ---
 
